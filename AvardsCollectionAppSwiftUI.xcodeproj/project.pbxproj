@@ -11,6 +11,9 @@
 		C4E5F56F267D2DAB0090918F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F56E267D2DAB0090918F /* ContentView.swift */; };
 		C4E5F571267D2DAC0090918F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E5F570267D2DAC0090918F /* Assets.xcassets */; };
 		C4E5F574267D2DAC0090918F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E5F573267D2DAC0090918F /* Preview Assets.xcassets */; };
+		C4E5F57C267D2E5E0090918F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F57B267D2E5E0090918F /* MainView.swift */; };
+		C4E5F57E267D2E710090918F /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F57D267D2E710090918F /* AwardsView.swift */; };
+		C4E5F580267D30340090918F /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F57F267D30340090918F /* GradientRectangles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		C4E5F570267D2DAC0090918F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E5F573267D2DAC0090918F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4E5F575267D2DAC0090918F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E5F57B267D2E5E0090918F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C4E5F57D267D2E710090918F /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		C4E5F57F267D30340090918F /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				C4E5F56C267D2DAB0090918F /* AvardsCollectionAppSwiftUIApp.swift */,
 				C4E5F56E267D2DAB0090918F /* ContentView.swift */,
+				C4E5F57B267D2E5E0090918F /* MainView.swift */,
+				C4E5F57D267D2E710090918F /* AwardsView.swift */,
+				C4E5F57F267D30340090918F /* GradientRectangles.swift */,
 				C4E5F570267D2DAC0090918F /* Assets.xcassets */,
 				C4E5F575267D2DAC0090918F /* Info.plist */,
 				C4E5F572267D2DAC0090918F /* Preview Content */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E5F57E267D2E710090918F /* AwardsView.swift in Sources */,
+				C4E5F580267D30340090918F /* GradientRectangles.swift in Sources */,
 				C4E5F56F267D2DAB0090918F /* ContentView.swift in Sources */,
+				C4E5F57C267D2E5E0090918F /* MainView.swift in Sources */,
 				C4E5F56D267D2DAB0090918F /* AvardsCollectionAppSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
