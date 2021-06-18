@@ -15,15 +15,18 @@ struct MainView: View {
         VStack {
             Button(action: {showAward.toggle() }) {
                 HStack {
-                    if showAward {
-                        Text("Hide Award")
-                        Image(systemName: "chevron.up.square")
-                    } else {
-                        Text("Show Award")
-                        Image(systemName: "chevron.down.square")
-                    }
+                    Text(showAward ? "Hide Award" : "Show Award")
+                    Spacer()
+                    Image(systemName: "chevron.up.square")
+                        .rotationEffect(.degrees(showAward ? 0 : 360))
+                        .animation(.default)
                 }
             }
+            Spacer()
+            GradientRectangles(width: 200, height: 200)
+                .offset(x: showAward ? 0 : UIScreen.main.bounds.width)
+                .animation(.default)
+
             Spacer()
         }
         .font(.headline)
