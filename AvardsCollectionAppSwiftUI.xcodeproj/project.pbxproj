@@ -14,6 +14,8 @@
 		C4E5F57C267D2E5E0090918F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F57B267D2E5E0090918F /* MainView.swift */; };
 		C4E5F57E267D2E710090918F /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F57D267D2E710090918F /* AwardsView.swift */; };
 		C4E5F580267D30340090918F /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F57F267D30340090918F /* GradientRectangles.swift */; };
+		C4E5F582267D39170090918F /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F581267D39170090918F /* PathView.swift */; };
+		C4E5F584267D3F9B0090918F /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F583267D3F9B0090918F /* CurvesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C4E5F57B267D2E5E0090918F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C4E5F57D267D2E710090918F /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		C4E5F57F267D30340090918F /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		C4E5F581267D39170090918F /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		C4E5F583267D3F9B0090918F /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C4E5F57B267D2E5E0090918F /* MainView.swift */,
 				C4E5F57D267D2E710090918F /* AwardsView.swift */,
 				C4E5F57F267D30340090918F /* GradientRectangles.swift */,
+				C4E5F581267D39170090918F /* PathView.swift */,
+				C4E5F583267D3F9B0090918F /* CurvesView.swift */,
 				C4E5F570267D2DAC0090918F /* Assets.xcassets */,
 				C4E5F575267D2DAC0090918F /* Info.plist */,
 				C4E5F572267D2DAC0090918F /* Preview Content */,
@@ -148,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4E5F57E267D2E710090918F /* AwardsView.swift in Sources */,
+				C4E5F582267D39170090918F /* PathView.swift in Sources */,
 				C4E5F580267D30340090918F /* GradientRectangles.swift in Sources */,
+				C4E5F584267D3F9B0090918F /* CurvesView.swift in Sources */,
 				C4E5F56F267D2DAB0090918F /* ContentView.swift in Sources */,
 				C4E5F57C267D2E5E0090918F /* MainView.swift in Sources */,
 				C4E5F56D267D2DAB0090918F /* AvardsCollectionAppSwiftUIApp.swift in Sources */,
