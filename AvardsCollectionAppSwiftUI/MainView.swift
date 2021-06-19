@@ -25,8 +25,7 @@ struct MainView: View {
             Spacer()
             GradientRectangles(width: 200, height: 200)
                 .offset(x: showAward ? 0 : UIScreen.main.bounds.width)
-                .animation(.default)
-
+                .animation(.interpolatingSpring(mass: 15, stiffness: 100, damping: 10, initialVelocity: 0))
             Spacer()
         }
         .font(.headline)
